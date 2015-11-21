@@ -1,13 +1,13 @@
 package com.edocent.jobsmartlyapp;
 
 import android.app.Activity;
+import android.app.Fragment;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v4.app.Fragment;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
@@ -106,11 +106,6 @@ public class MainActivityFragment extends Fragment {
                 mNoInternetInterface.callNoInternetFragment();
             }
         }
-
-        /*To add space between app icon and nav drawer icon*/
-        //ImageView imageView = (ImageView) view.findViewById(android.R.id.home);
-        //imageView.setPadding(300, 0, 0, 0);
-        /*Ends*/
 
         return view;
     }
